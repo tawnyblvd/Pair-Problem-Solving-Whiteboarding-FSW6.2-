@@ -7,7 +7,7 @@ function noTriples(arr) {
   if (newObject[(arr[i])]) {
     newObject[(arr[i])]++;
       if (newObject[(arr[i])] >= 3) {
-        return true;
+        return false;
       }
   } else {
     newObject[(arr[i])] = 1;
